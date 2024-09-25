@@ -30,11 +30,55 @@
     <!-- custom css  -->
      <style>
         .googleFont{
-            font-size: "Lexend", sans-serif;
+            font-family: "Lexend", sans-serif;
         }
      </style>
 </head>
 <body class="googleFont">
-    <h1> this is donate bangladesh website innitially</h1>
+    <!-- navbar start  -->
+     <div class="sticky top-0 z-50 shadow">
+        <div class="bg-bg-nav">
+            <nav class=" px-5 mx-auto py-8 max-w-6xl flex  items-center justify-between">
+                <!-- blog start  -->
+                 <a href="blog.html" class="text-lg bg-lime px-6 py-2 rounded-lg font-bold hover:bg-lime-600 transition-colors">Blog</a>
+                <!-- blog end  -->
+                <!-- logo start  -->
+                 <div class="flex items-center text-center gap-3">
+                    <img src="assets/logo.png" alt="logo" class="w-10">
+                    <p class=" font-bold text-lg md:block hidden">Donate Bangladesh</p>
+                 </div>
+                <!-- logo end  -->
+                <!-- Acc Balance start   -->
+                 <div class="flex items-center space-x-4">
+                    <span id="accBalance" class="text-lg font-semibold flex gap-2 items-center text-text-primary">
+                        <img src="assets/coin.png" alt="coin logo" class="inline w-6">
+                        <span>
+                            <span id="balanceAmount" >7000</span> BDT
+                        </span>
+                    </span>
+                 </div>
+                <!-- Acc Balance end   -->
+                
+            </nav>
+        </div>
+        <!-- Donation button and History button start -->
+        <div class=" backdrop-blur-xl">
+            <div class="max-w-6xl px-5 mx-auto flex justify-center space-x-4 py-10 mb-8 ">
+                <button id="btn-donation" class="px-4 py-2 bg-lime text-text-primary rounded-md font-bold">Donation</button>
+                <button id="btn-history" class="px-4 py-2  text-text-primary border border-gray-500 rounded-md font-bold">History</button>
+            </div>
+        </div>
+        <!-- Donation button and History button end -->
+     </div>
+    <!-- navbar end -->
+    <!-- donation cards section start   -->
+     <div id="donation-section" class="max-w-6xl px-5 mx-auto grid grid-cols-1 gap-6 p-4 mb-10 md:mb-20">
+        <!-- card 1 start  -->
+         <div class=" grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 items-center p-4 md:p-8 border-gray-300 border rounded-xl">
+            
+         </div>
+        <!-- card 1 end  -->
+     </div>
+    <!-- donation cards section end   -->
 </body>
 </html>
